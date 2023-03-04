@@ -18,8 +18,7 @@ steps:
       mavenVersionOption: 'Default'
       mavenAuthenticateFeed: false
       effectivePomSkip: false
-      sonarQubeRunAnalysis: false
-  - script: pwd
-    displayName: 'Mostrar donde estoy cuando ejecuto el pipeline'
+      sonarQubeRunAnalysis: true
+
 
     
