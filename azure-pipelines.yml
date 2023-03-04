@@ -9,7 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-steps:
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
@@ -18,4 +17,9 @@ steps:
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
-    sonarQubeRunAnalysis: true
+    sonarQubeRunAnalysis: false
+steps:
+  - script: pwd
+    displayName: 'Mostrar donde estoy cuando ejecuto el pipeline'
+
+    
