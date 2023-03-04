@@ -23,6 +23,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2MYXxUBRcdea1C82yFSiT2karFA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +61,7 @@
       <updated>1677945773518</updated>
       <workItem from="1677945773540" duration="1380000" />
       <workItem from="1677956621908" duration="601000" />
+      <workItem from="1677964346630" duration="281000" />
     </task>
     <servers />
   </component>
